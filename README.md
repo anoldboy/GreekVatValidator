@@ -10,7 +10,7 @@ Range:
 * c1 - c9 are numeric 0 - 9.
 
 Rules:
-* a1 = 256*c9 + 128*c8 + 64*c7 + 32*c6 + 16*c5 + 8*c4 + 4*c3 + 2*c2
+* a1 = 256\*c9 + 128\*c8 + 64\*c7 + 32\*c6 + 16\*c5 + 8\*c4 + 4\*c3 + 2\*c2
 * a2 = a1 modulo 11
 * c1 = a2 modulo 10
 
