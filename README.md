@@ -1,7 +1,7 @@
 # GreekVatValidator
 Greek vat number validation algorithm in javascript.
 
-Algorithm doesn't prompt for input data from user. Just using a variable with the number and then shows the steps of the algorithm. So in order to test it you have to statically change the price of the variable.
+Algorithm doesn't prompt for input data from user. Just using a variable with the number and then shows the steps of the algorithm. So in order to test it you have to statically change the price of the variable, before you run the program.
 
 VAT Format:
 * [c9 c8 c7 c6 c5 c4 c3 c2 c1] where c1 - c9 are the digits of the vat number.
