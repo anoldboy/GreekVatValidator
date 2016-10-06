@@ -18,7 +18,6 @@ if (count_digits != 9 || sum_of_digits == 0){
   var a1 = 0;
   var i = 1;
   for (i = 0; i < 8; i++){
-    console.log("m: " + m)
     a1 = a1 + Number(array[i]) * m;
     m = m / 2;
   }
