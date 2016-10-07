@@ -24,6 +24,8 @@ if (count_digits != 9 || sum_of_digits == 0){
 
   //A2 calculation as the readme.md file describes
   var a2 = a1 % 11;
+
+  //Check if c9 is equal with a2 modulo 10
   if (Number(array[8]) == a2 % 10){
     console.log("Vat number is valid!");
   }else {
